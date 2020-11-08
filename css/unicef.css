@@ -135,6 +135,13 @@ header {
     padding-left: 8px;
     padding-right: 8px;
   }
+  .fair-chance-row {
+    background-image: url('../assets/images/holding-baby-bg.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    padding: 60px 0;
+  }
   .black-text-paragraph-1 {
     color: #000;
     font-size: 30px;
@@ -147,7 +154,7 @@ header {
     color: #00AEEF;
     font-weight: bold;
     font-size: 33px;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 10;;
 }
 .black-text-paragraph-2 {
@@ -181,7 +188,7 @@ header {
     color: #00AEEF;
     font-size: 198px;
     position: absolute;
-    top: -120px;
+    top: -100px;
     margin-left: -90px;
 }
 .white-text-1 {
@@ -199,8 +206,12 @@ header {
 }
 .marie-profile-image {
   position: absolute;
-  top: -70px;
+  top: -115px;
 }  
+.souley-profile-image {
+  position: absolute;
+  top: -70px;
+}
 .row-padding-60 {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -364,22 +375,50 @@ header {
 	padding: 60px 30px 15px 30px;
 }
 .wasting-row {
-	border: 3px solid #ebebeb;
+  border: 3px solid #ebebeb;
+  padding: 40px 0 0px 0;
+}
+.waiting-footer {
+  border-top: 3px solid #000;
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+}
+.waiting-footer p {
+  font-size: 14px;
 }
 .wasting-row h5 {
 	font-size: 28px;
 	font-weight: 500;
-	font-style: italic;
+  font-style: italic;
+  margin-top: 60px;
 }
 .wasting-row h3 {
 	font-size: 48px;
 	font-weight: 700;
 	font-style: italic;
-	line-height: 100%;
+  line-height: 100%;
+  margin-bottom: 90px;
 }
 .wasting-text p {
 	font-size: 19px;
 	font-weight: 600;
+}
+.stat-img-1 {
+  position: absolute;
+  bottom: -42px;
+  text-align: center;
+  text-align: center;
+}
+.stat-img-2 {
+  position: absolute;
+  bottom: -42px;
+  right: 40px;
+  text-align: center;
+}
+.stat-date {
+  margin-top: 20px;
+  font-weight: 700;
+  font-style: 20px;
 }
 .help-invest {
 	text-align: left;
