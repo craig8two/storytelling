@@ -6,5 +6,10 @@
 #approach-item-1, #approach-item-2, #approach-item-3, #approach-item-4{
     /* display: block; */
     opacity: 0 ;
-    scale: .5;
 }
+
+#map-2, #map-3 {
+    display: none;
+    opacity: 0;
+}
+
