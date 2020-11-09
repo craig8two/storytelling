@@ -19,12 +19,12 @@ lifecycle_approach_timeline.to("#approach-item-3", { display: "none", opacity: 0
 
 lifecycle_approach_timeline.to("#approach-item-4", { display: "inline", opacity: 1, duration: .5, ease: "power4.out" });
 lifecycle_approach_timeline.to("#blue-prog-circle-5", { opacity: 1 }, );
-lifecycle_approach_timeline.to("#approach-item-4", { display: "none", opacity: 0, duration: .5, ease: "power4.out", }, "=+5");
+
 
 
 var lifecycle_approach_scene = new ScrollMagic.Scene({
 	triggerElement: ".lifecycle-row",
-	duration: "5000",
+	duration: "300%",
 	triggerHook: 0
 })
 	.setPin(".lifecycle-row")
