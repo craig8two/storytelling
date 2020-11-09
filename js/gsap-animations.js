@@ -63,10 +63,10 @@ var lifecycle_approach_scene = new ScrollMagic.Scene({
 
 var maps_timeline = gsap.timeline({});
 
-maps_timeline.to("#map-1", { opacity: 0, display: "none", duration: .2 }, "+=5")
-maps_timeline.to("#map-2", { opacity: 1, display: "block", duration: .2 },)
-maps_timeline.to("#map-2", { opacity: 0, display: "none", duration: .2 }, "+=5")
-maps_timeline.to("#map-3", { opacity: 1, display: "block", duration: .2 },)
+maps_timeline.to("#map-1", { opacity: 0, display: "none", duration: 0.2 }, "+=5");
+maps_timeline.to("#map-2", { opacity: 1, display: "block", duration: 0.2 });
+maps_timeline.to("#map-2", { opacity: 0, display: "none", duration: 0.2 }, "+=5");
+maps_timeline.to("#map-3", { opacity: 1, display: "block", duration: 0.2 });
 
 var maps_scene = new ScrollMagic.Scene({
 	triggerElement: "#maps-section",
