@@ -317,6 +317,19 @@ header {
 	background-image: url('../assets/images/stripped-border.png');
 	background-repeat: repeat-x;
 }
+.stat-slides-container {
+  /* position: relative; */
+  /* width: 100%;
+  float: left;
+  clear: both; */
+}
+.hidden-image-for-scale {
+  visibility: hidden;
+
+}
+.stat-slide {
+  position: relative;
+}
 .stat-info {
 	position: absolute;
 	right: 20px;
@@ -325,7 +338,7 @@ header {
 	width: 33%;
 }
 .stat-info h2 {
-	font-size: 130px;
+	font-size: 120px;
 	font-weight: 700;
 	line-height: 100%;
 }
@@ -695,13 +708,403 @@ header {
   border-left: 2px solid #FFF;
   padding: 30px;
 }
+/*  */
+.what-can-you-do {
+  text-align: center;
+  box-shadow:  inset 0px 44px 28px -40px rgb(0, 0, 0, .20), inset 0px -44px 28px -40px rgb(0, 0, 0, .20); 
+	background-color: #ebebeb;
+}
+.what-can-you-do h3 {
+  color: #eb6209;
+  font-size: 73px;
+  font-weight: 900;
+}
+.what-can-you-do h5 {
+  color: #FFF;
+  background-color: #eb6209;
+  font-size: 34px;
+  font-weight: 900;
+  display: inline-block;
+  padding: 5px 15px;
+  margin-top: 20px;
+}
+.what-can-you-do p {
+  color: #eb6209;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 20px 15px 0 15px;
+}
+.map-cavs {
+  font-size: 13px;
+  font-weight: 600;;
+}
+/*  */
+.why-invest {
+  background-color: #009fe3;
+  position: relative;
+  padding: 60px 0;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 500;
+}
+.why-invest h3 {
+  color: #FFF;
+  font-size: 47px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+.investments-stats {
+  background-image: url("../assets/images/cereal.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  padding-bottom: 400px;
+  position: relative;
+  /* background-size: cover; */
+}
+.investments-stats-top {
 
+}
+.investments-stats-top h1 {
+  font-size: 117px;
+  font-weight: 900;
+  color: #009fe3;
+  background-color: #FFF;
+  display: inline-block;
+  margin-top: -130px;
+  padding: 0px 20px 0 20px;
+  margin-bottom: 0;
+}
+.investments-stats-top h2 {
+  font-size: 25px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #009fe3;
+}
+.investments-stats-middle h3 {
+  font-size: 24px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background-color: #fdc300;
+  color: #FFF;
+  display: inline-block;
+  padding: 15px 20px;
+}
+.investment-returns-list {
+  list-style: disc;
+}
+.investment-returns-list li {
+  color: #009fe3;
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 3px;
+}
+.investment-returns-list li strong {
+  font-weight: 800;
+}
+.text-part-1 {
+  font-size: 39px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #eb6209;
+  display: inline-block;
+  line-height: 110%;
+  padding: 0px 20px;
+}
+.text-part-2 {
+  font-size: 53px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #eb6209;
+  display: inline-block;
+  line-height: 100%;
+  padding: 0px 20px;
+}
+.text-part-3 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #eb6209;
+  color: #FFF;
+  display: inline-block;
+  padding: 2px 20px;
+  margin-top: 5px;
+}
+.text-part-4 {
+  font-size: 53px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #009fe3;
+  display: inline-block;
+  line-height: 100%;
+  padding: 0px 20px;
+  text-align: right;
+}
+.text-part-5 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #009fe3;
+  color: #FFF;
+  display: inline-block;
+  padding: 2px 20px;
+  margin-top: 5px;
+}
+.text-part-6 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #fdc300;
+  color: #FFF;
+  display: inline-block;
+  padding: 2px 20px;
+  margin-top: 5px;
+}
+.text-part-7 {
+  font-size: 67px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fdc300;
+  display: inline-block;
+  line-height: 100%;
+  padding: 0px 20px;
+  margin-top: 3px;
+}
+.text-part-8 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #eb6209;
+  color: #FFF;
+  display: inline-block;
+  padding: 2px 20px;
+  margin-top: 5px;
+}
+.text-part-9 {
+  font-size: 67px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #eb6209;
+  display: inline-block;
+  line-height: 100%;
+  padding: 0px 20px;
+  margin-top: 3px;
+}
+.text-part-8 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #eb6209;
+  color: #FFF;
+  display: inline-block;
+  padding: 2px 20px;
+  margin-top: 5px;
+}
+.text-part-9 {
+  font-size: 72px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #eb6209;
+  display: inline-block;
+  line-height: 100%;
+  padding: 0px 20px;
+  margin-top: 3px;
+}
+.text-part-10 {
+  font-size: 26px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #009fe3;
+  display: inline-block;
+  line-height: 100%;
+  padding: 0px 20px;
+  margin-top: 3px;
+}
+.text-part-11 {
+  font-size: 27px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #009fe3;
+  color: #FFF;
+  display: inline-block;
+  padding: 12px 20px;
+  margin-top: 5px;
+  line-height: 100%;
+}
+.text-part-11 strong {
+  font-size: 72px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background-color: #009fe3;
+  color: #FFF;
+  display: inline-block;
+  padding: 2px 20px;
+  margin-top: 5px;
+}
+.text-part-11 span {
+  display: inline-block;
+}
+.text-part-12 {
+  font-size: 26px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #009fe3;
+  display: inline-block;
+  line-height: 100%;
+  padding: 0px 20px;
+  margin-top: 3px;
+}
+.investments-stats-middle-6 {
+  padding-top: 40px;
+}
+.text-part-13 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #fdc300;
+  color: #FFF;
+  display: inline-block;
+  padding: 2px 20px;
+  margin-top: 5px;
+}
+.text-part-14 {
+  font-size: 67px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #eb6209;
+  display: inline-block;
+  line-height: 100%;
+  padding: 0px 20px;
+  margin-top: 3px;
+}
+.text-part-15 {
+  font-size: 26px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #eb6209;
+  display: inline-block;
+  line-height: 100%;
+  padding: 0px 20px;
+  margin-top: 3px;
+}
+.translucent-footer {
+  background-color: rgba(0, 0, 0, 0.288);
+  padding: 10px 30px;
+  font-size: 13px;
+  text-align: left;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  color: #FFF;
+}
+/*  */
+.orange-row .top-orange-container {
+	background-color: #eb6209;
+  padding: 30px 80px;
+  font-size: 39px;
+  color: #FFF;
+  line-height: 120%;
+}
+/*  */
+.priority-areas {
 
-
-
-
-
-
+}
+.priority-areas table {
+  width: 100%;
+  border: 3px solid #eb6209;
+  border-top: 0px;
+}
+.priority-areas table td {
+  padding: 20px;
+}
+.grey-cell {
+  background-color: #ebebeb;
+}
+.title-cell {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #eb6209;
+  font-weight: 800;
+  border-top: 3px solid #eb6209;
+}
+.no-border {
+  border: 0px!important;
+}
+.bold-cell {
+  font-size: 19px;
+  font-weight: 800;
+  width: 28%;
+  text-align: center;
+}
+.list-cell ul {
+  margin-bottom: 0px;
+}
+.list-cell li {
+  padding-bottom: 7px;
+  font-weight: 600;
+}
+/*  */
+.henrietta-profile-image {
+  position: relative;
+  top: -25px;
+}  
+.power-of-partnerships {
+  background-color: #009fe3;
+  padding: 60px 0 30px 0;
+  position: relative;
+}
+.white-quotes {
+  color: #FFF;
+  font-size: 198px;
+  position: absolute;
+  top: -80px;
+  margin-left: -90px;
+}
+.text-quote-white {
+  color: #FFF;
+  font-size: 26px;
+  line-height: normal;
+  font-style: italic;
+  margin-top: 30px;
+  margin-bottom: 10;
+}
+.person-title-white {
+  color: #FFF;
+  font-size: 18px;
+  line-height: normal;
+  margin-top: 0px;
+}
+.power-of-partnerships-text {
+  padding-top: 60px;
+  text-align:  center;
+}
+.power-of-partnerships-text h2 {
+  color: #009fe3;
+  font-size: 82px;
+  font-weight: 900;
+  margin: 0;
+  line-height: 70%;
+}
+.power-of-partnerships-text h3 {
+  color: #009fe3;
+  font-size: 46px;
+  font-weight: 900;
+  margin: 0;
+  line-height: 110%;
+}
+.partnerships-paragraph {
+  padding: 30px 0;
+}
+.partnerships-paragraph h3 {
+  font-weight: 500;
+  font-size: 30px;
+  color: #FFF;
+}
+.partnerships-paragraph p {
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFF;
+  margin-top: 30px;
+}
 
 
 
