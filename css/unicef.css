@@ -486,6 +486,7 @@ header {
 .lifecycle-row {
   text-align: center;
   background-color: #009fe3;
+  padding-bottom: 80px;
 }
 .lifecycle-row .title-1 {
   background-color: #eb6209;
@@ -654,6 +655,7 @@ header {
   font-weight: 900;
   color: #FFF;
 }
+/*  */
 .nutrition-text-slider {
   background-color: #fdc300;
   position: relative;
@@ -665,11 +667,16 @@ header {
   text-align: center;
   padding: 0 5%;
 }
-
-
-
-
-
+.nutrition-text-slider h2 {
+  color: #FFF;
+  font-size: 54px;
+  font-weight: 700;
+  text-align: center;
+  padding: 0 5%;
+}
+.we-need-to {
+  padding-top: 30px;
+}
 .nutrition-text {
   text-align: center;
 }
@@ -681,7 +688,13 @@ header {
   font-size: 20px;
   margin-top: 30px;
 }
-
+.text-slide {
+  font-size: 26px;
+  font-weight: 500;
+  color: #FFF;
+  border-left: 2px solid #FFF;
+  padding: 30px;
+}
 
 
 
