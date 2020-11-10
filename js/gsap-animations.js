@@ -4,9 +4,9 @@ var controller = new ScrollMagic.Controller();
 
  var lifecycle_approach_timeline = gsap.timeline({
 	scrollTrigger: {
-		trigger: ".approach-circle",
+		trigger: ".lifecycle-row",
 		pin: "body",
-		 start: "center center",
+		 start: "top top",
 		end: "500%",
 		markers: "true",
 		scrub: 1
@@ -67,7 +67,7 @@ lifecycle_approach_timeline.to(
 );
 
 lifecycle_approach_timeline.to("#approach-item-5", {
-	display: "inline",
+	display: "block",
 	opacity: 1,
 	duration: 0.5,
 	ease: "power4.out"
