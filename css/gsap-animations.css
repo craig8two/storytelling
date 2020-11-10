@@ -4,12 +4,25 @@
 }
 
 #approach-item-1, #approach-item-2, #approach-item-3, #approach-item-4{
-    /* display: block; */
     opacity: 0 ;
 }
 
-#map-2, #map-3 {
-    display: none;
-    opacity: 0;
+/* MAPS */
+#maps-section {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    margin: 0 auto;
 }
+#map-1, #map-2, #map-3 {
+   position: absolute;
+   width: 100%;
+    opacity: 0;
+
+}
+
+#map-1 {
+    opacity: 1
+}
+
 
