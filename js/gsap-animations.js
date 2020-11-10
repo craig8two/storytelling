@@ -2,7 +2,17 @@ var controller = new ScrollMagic.Controller();
 
 //LIFECYCLE SECTION
 
-var lifecycle_approach_timeline = gsap.timeline({});
+ var lifecycle_approach_timeline = gsap.timeline({
+	scrollTrigger: {
+		trigger: ".approach-circle",
+		pin: "body",
+		 start: "center center",
+		end: "500%",
+		markers: "true",
+		scrub: 1
+	}
+ });
+
 
 lifecycle_approach_timeline.to("#approach-item-1", {
 	display: "inline",
@@ -48,16 +58,23 @@ lifecycle_approach_timeline.to("#approach-item-4", {
 	duration: 0.5,
 	ease: "power4.out"
 });
-lifecycle_approach_timeline.to("#blue-prog-circle-5", { opacity: 1 }, "=+5");
 
-var lifecycle_approach_scene = new ScrollMagic.Scene({
-	triggerElement: ".lifecycle-row",
-	duration: "300%",
-	triggerHook: 0
-})
-	.setPin(".lifecycle-row")
-	.setTween(lifecycle_approach_timeline) // trigger a TweenMax.to tween
-	.addTo(controller);
+lifecycle_approach_timeline.to("#blue-prog-circle-5", { opacity: 1 });
+lifecycle_approach_timeline.to(
+	"#approach-item-4",
+	{ display: "none", opacity: 0, duration: 0.5, ease: "power4.out" },
+	"=+5"
+);
+
+lifecycle_approach_timeline.to("#approach-item-5", {
+	display: "inline",
+	opacity: 1,
+	duration: 0.5,
+	ease: "power4.out"
+});
+
+
+
 
 //MAP SECTION
 
@@ -67,7 +84,7 @@ var maps_timeline = gsap.timeline({
 		pin: "body",
 		start: "center center",
 		end: "1000%",
-		markers: "true",
+		// markers: "true",
 		scrub: 1
 	}
 });

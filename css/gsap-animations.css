@@ -1,11 +1,18 @@
+
+
 #blue-prog-circle-3, #blue-prog-circle-4, #blue-prog-circle-5 {
     opacity: 0;
 
 }
 
-#approach-item-1, #approach-item-2, #approach-item-3, #approach-item-4{
+ #approach-item-2, #approach-item-3, #approach-item-4, .approach-item-5{
     opacity: 0 ;
 }
+
+.approach-item-5 {
+    display: none;
+}
+
 
 /* MAPS */
 #maps-section {
