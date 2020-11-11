@@ -6,6 +6,10 @@ body {
 .container {
 	max-width: 960px;
 }
+.row {
+  margin-left: 0x;
+  margin-right: 0px;
+}
 header {
     position: relative;
     background-color: black;
@@ -857,7 +861,7 @@ header {
   /* display: inline-block; */
   line-height: 100%;
   padding: 0px 20px;
-  text-align: right;
+  height: 50px;
 }
 .text-part-5 {
   font-size: 24px;
@@ -868,6 +872,7 @@ header {
   /* display: inline-block; */
   padding: 2px 20px;
   margin-top: 5px;
+  height: 40px;
 }
 .text-part-6 {
   font-size: 24px;
@@ -898,6 +903,7 @@ header {
   /* display: inline-block; */
   padding: 2px 20px;
   margin-top: 5px;
+  height: 70px;
 }
 .text-part-9 {
   font-size: 67px;
@@ -1021,7 +1027,7 @@ header {
   min-width: 525px;
   position: absolute;
   right: 0;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 /*  */
 .orange-row .top-orange-container {
@@ -1145,6 +1151,65 @@ header {
   padding-top: 13px;
   color: rgb(255, 255, 255, .30)
 }
+.partnerships-circles {
+  text-align: center;
+}
+.partnerships-circles-inner {
+  text-align: center;
+  background-image: url("../assets/images/partnership-centre.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 600px;
+  overflow: auto;
+  width: 100%;
+}
+.partner-title {
+  text-align: center;
+  color: #009fe3;
+  font-size: 50px;
+  font-style: italic;
+  margin-bottom: 10px;
+  padding-top: 50px;
+  padding-left: 25px;
+  border-left: 3px solid #009fe3;
+  display: inline-block;
+}
+.partner-circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto auto;
+}
+.partner-circle-1 {
+  padding: 0 215px 333px 0;
+}
+.partner-circle-2 {
+  padding: 0 0 330px 530px;
+}
+.partner-circle-3 {
+  padding: 0 0 0px 560px;
+}
+.partner-circle-4 {
+  padding: 340px 0 0 530px;
+}
+.partner-circle-5 {
+  padding: 320px 245px 0px 0;
+}
+.partner-circle-6 {
+  padding: 0 420px 0 0px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
