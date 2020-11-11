@@ -6,10 +6,10 @@ body {
 .container {
 	max-width: 960px;
 }
-.row {
+/* .row {
   margin-left: 0x;
   margin-right: 0px;
-}
+} */
 header {
     position: relative;
     background-color: black;
@@ -1241,12 +1241,57 @@ header {
 .hidden-element {
   visibility: hidden;
 }
-
-
-
-
-
-
+.new-posibilities {
+  padding: 40px 0;
+  text-align: center;
+}
+.new-posibilities p {
+  font-size: 24px;
+  color: #eb6209;
+}
+.footer {
+  text-align: center;
+  box-shadow:  inset 0px 44px 28px -40px rgb(0, 0, 0, .20), inset 0px -44px 28px -40px rgb(0, 0, 0, .20); 
+  background-color: #ebebeb;
+  padding: 60px 0 20px 0;
+}
+.footer-btn {
+  background: rgb(220,12,21);
+  background: linear-gradient(351deg, rgba(186,16,16,1) 0%, rgba(220,12,21,1) 100%);
+  border: 0px;
+  border-radius: 7px;
+  padding: 20px 25px;
+  color: #FFF;
+  font-size: 24px;
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.38);
+  letter-spacing: 1px;
+}
+.footer-btn:hover {
+  background: linear-gradient(351deg, rgba(220,12,21,1) 0%, rgba(186,16,16,1) 100%);
+}
+.footer p {
+  font-size: 20px;
+  margin: 30px auto 50px auto;
+  font-weight: 600;
+}
+.footer hr {
+  background-color: #222;
+}
+.footer-middle p {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 30px 0 0px 0;
+}
+.footer-middle a {
+  font-size: 24px;
+  font-weight: 700;
+  color: #222;
+}
+.footer-hashtag {
+  font-size: 39px;
+  font-weight: 700;
+  margin: 30px auto 20px auto;
+}
 
 
 
