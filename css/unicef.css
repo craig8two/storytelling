@@ -584,7 +584,7 @@ header {
 }
 /* APPROACH ITEM 1 */
 #approach-item-1 {
-  display: none;
+ 
 }
 #prog-circle-1 {
   left: 0;
@@ -603,7 +603,7 @@ header {
   margin: 0 auto;
 }
 #approach-item-2 {
-  display: none;
+
 }
 #prog-circle-2 {
   right: -105px;
@@ -619,7 +619,7 @@ header {
   right: -50px;
 }
 #approach-item-3 {
-  display: none;
+
 }
 #prog-circle-3 {
   right: 0px;
@@ -639,7 +639,7 @@ header {
   margin: 0 auto;
 }
 #approach-item-4 {
-  display: none;
+
 }
 #prog-circle-4 {
   left: -105px;
@@ -655,7 +655,7 @@ header {
   left: -50px;
 }
 #approach-item-5 {
-  display: block;
+
 }
 #prog-circle-5 {
   left: -105px;
